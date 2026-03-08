@@ -13,6 +13,5 @@ class CandidateResponse(BaseModel):
     skills: Optional[str]
     resume_file: Optional[str]
 
-class Config:
-    from_attributes = True
-
+    class Config:
+        from_attributes = True
