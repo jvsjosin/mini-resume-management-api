@@ -1,16 +1,34 @@
-# Mini Resume Management API 
+# Mini Resume Management API
+
+A FastAPI project to manage candidate resumes with database persistence using SQLite and SQLAlchemy.
+
+---
+
 ## Features
-- Upload Resume (PDF/DOC/DOCX)
-- Store Candidate Metadata
-- Filter by Skill, Experience, Graduation Year
-- Get Candidate by ID
-- Delete Candidate
+
+- Upload candidate resume (PDF, DOC, DOCX) along with metadata
+- Store candidate details in SQLite database
+- Filter candidates by skill, experience, and graduation year
+- Retrieve candidate by ID
+- Delete candidate
+- Automatic API docs via Swagger UI
+
+---
+
 ## Tech Stack
-- FastAPI
-- SQLAlchemy
-- SQLite
+
+- **FastAPI** - web framework
+- **SQLite** - database
+- **SQLAlchemy** - ORM
+- **Pydantic** - data validation
+- **python-multipart** - for file uploads
+
+---
+
 ## Setup Instructions
-1. Create Virtual Environment
-2. Install Dependencies
-3. Run Server
-4. Open Swagger
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/jvsjosin/mini-resume-management-api.git
+cd mini-resume-management-api
