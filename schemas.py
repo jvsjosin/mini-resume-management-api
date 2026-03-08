@@ -15,3 +15,4 @@ class CandidateResponse(BaseModel):
 
     class Config:
         from_attributes = True
+
