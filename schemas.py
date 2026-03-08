@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional
-from typing import Optional2
+
 class CandidateResponse(BaseModel):
     id: int
     full_name: str
